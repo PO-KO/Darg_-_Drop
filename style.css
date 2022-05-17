@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+.container {
+  padding: 10px;
+  background-color: #222;
+  margin-bottom: 10px;
+}
+
+.draggable {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.draggable:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.dragging {
+  opacity: 0.4;
+}
